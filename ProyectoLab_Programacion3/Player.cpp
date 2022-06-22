@@ -4,7 +4,7 @@
 Player::Player() {
     dirX = 0;
     dirY = 0;
-    vida = 8;
+    vida = 7;
     medallas = 0;
 }
 

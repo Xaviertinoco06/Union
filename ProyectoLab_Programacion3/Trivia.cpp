@@ -123,7 +123,6 @@ int Trivia::politica(){
 		else {
 			al_draw_bitmap(lost, 0, 0, 0);
 			Steve->setVida(life);
-			Steve->setMedal(1);
 			return 0;
 		}
 
@@ -609,31 +608,23 @@ int Trivia::Ruleta(){
 		if (al_key_down(&KeyState, ALLEGRO_KEY_SPACE)) {
 			if (tipoS == 0) {
 				al_start_timer(rultime);
-
 				spinning = true;
-
 			}
 			else if (tipoS == 1) {
 				ciencia();
-
 			}
 			else if (tipoS == 2) {
 				arte();
-
 			}
 			else if (tipoS == 3) {
 				historia();
-
 			}
 			else if (tipoS == 4) {
 				politica();
-
 			}
 		};
-
 		if (al_key_down(&KeyState, ALLEGRO_KEY_ESCAPE)) {
 			return 0;
-		
 		}
 
 		if (spins < random) {
@@ -705,7 +696,6 @@ int Trivia::Ruleta(){
 		}
 		al_flip_display();
 	}
-
 }
 
 int Trivia::arte() {

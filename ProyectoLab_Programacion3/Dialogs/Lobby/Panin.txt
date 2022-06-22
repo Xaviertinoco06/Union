@@ -4,7 +4,7 @@ Sobre el proyecto
 END
 Hoy me toca presentar
 END
-Nombe panin yo voy por 5 puntos
+Nambin panin yo voy por 5 puntos
 END
 Java ticket es el que me toca presentar
 END

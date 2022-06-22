@@ -2,3 +2,5 @@
 END
 Talvez no deba abrirlo.
 END
+Has recibido 1 vida!!!
+END
